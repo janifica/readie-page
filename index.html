@@ -1,0 +1,67 @@
+<!-- Summary: Landing page for the Readie app, including feature highlights and privacy policy link. -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Readie helps you capture and revisit ideas from articles, videos, and links in one focused reading space."
+    />
+    <title>Readie | Read It Later</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain-layer" aria-hidden="true"></div>
+    <main class="wrap">
+      <nav class="top-nav" aria-label="Main navigation">
+        <span class="brand">Readie</span>
+        <a class="nav-link" href="privacy.html">Privacy Policy</a>
+      </nav>
+
+      <section class="hero">
+        <p class="eyebrow">A minimal reading hub for curious minds</p>
+        <h1>Read less. Retain more.</h1>
+        <p class="subhead">
+          Save important ideas from web articles, videos, and links, then revisit them in one calm, distraction-free
+          workspace.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="https://play.google.com/" target="_blank" rel="noopener noreferrer">Get on Google Play</a>
+          <a class="btn ghost" href="privacy.html">Read Privacy Policy</a>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>1) Capture quickly</h2>
+          <p>Drop links from your browser and build a clean reading queue in seconds.</p>
+        </article>
+        <article class="card">
+          <h2>2) Organize clearly</h2>
+          <p>Tag, label, and prioritize what matters so your next session is ready before you open the app.</p>
+        </article>
+        <article class="card">
+          <h2>3) Review deeply</h2>
+          <p>Use focused reading sessions and revisit important points when you need them most.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="wrap footer">
+      <p>Built by independent developers with privacy in mind.</p>
+      <p id="year-footer"></p>
+    </footer>
+
+    <script>
+      // Set the footer year from the user's environment.
+      document.getElementById('year-footer').textContent = `© ${new Date().getFullYear()} Readie`;
+    </script>
+  </body>
+</html>
