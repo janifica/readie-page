@@ -1,4 +1,4 @@
-<!-- Summary: Landing page for the Readie app, including feature highlights and privacy policy link. -->
+<!-- Summary: Refined landing page for Readie, showcasing minimalist features and AI-powered reading. -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,62 +6,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Readie helps you capture and revisit ideas from articles, videos, and links in one focused reading space."
+      content="Readie helps you build your own knowledge net intuitively while reading with AI."
     />
-    <title>Readie | Read It Later</title>
+    <title>readie. | build your knowledge web</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Merriweather:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Newsreader:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="grain-layer" aria-hidden="true"></div>
     <main class="wrap">
       <nav class="top-nav" aria-label="Main navigation">
-        <span class="brand">Readie</span>
-        <a class="nav-link" href="privacy.html">Privacy Policy</a>
+        <span class="brand">readie.</span>
+        <a class="nav-link" href="privacy.html">privacy policy</a>
       </nav>
 
       <section class="hero">
-        <p class="eyebrow">A minimal reading hub for curious minds</p>
-        <h1>Read less. Retain more.</h1>
+        <h1>read less. retain more.</h1>
         <p class="subhead">
-          Save important ideas from web articles, videos, and links, then revisit them in one calm, distraction-free
-          workspace.
+          build your own knowledge network intuitively while reading with AI assistant.
         </p>
         <div class="cta-row">
-          <a class="btn primary" href="https://play.google.com/" target="_blank" rel="noopener noreferrer">Get on Google Play</a>
-          <a class="btn ghost" href="privacy.html">Read Privacy Policy</a>
+          <a class="btn primary" href="https://play.google.com/" target="_blank" rel="noopener noreferrer">get on google play</a>
+          <a class="btn ghost" href="privacy.html">privacy policy</a>
         </div>
       </section>
 
-      <section class="grid">
-        <article class="card">
-          <h2>1) Capture quickly</h2>
-          <p>Drop links from your browser and build a clean reading queue in seconds.</p>
-        </article>
-        <article class="card">
-          <h2>2) Organize clearly</h2>
-          <p>Tag, label, and prioritize what matters so your next session is ready before you open the app.</p>
-        </article>
-        <article class="card">
-          <h2>3) Review deeply</h2>
-          <p>Use focused reading sessions and revisit important points when you need them most.</p>
-        </article>
-      </section>
+      <div class="showcase">
+        <section class="feature-item">
+          <div class="feature-text">
+            <h2>ai-powered pre-reading</h2>
+            <p>
+              let your ai buddy read before you. skim the articles you don't want a deep dive into and focus on what truly matters.
+            </p>
+          </div>
+          <div class="feature-image-container">
+            <img class="feature-image" src="assets/images/skim.png" alt="AI Skimming feature" />
+          </div>
+        </section>
+
+        <section class="feature-item">
+          <div class="feature-text">
+            <h2>visualize your knowledge</h2>
+            <p>
+              a unique knowledge-web system connects atomic insights across articles, helping your ideas grow naturally as you read.
+            </p>
+          </div>
+          <div class="feature-image-container">
+            <img class="feature-image" src="assets/images/network.png" alt="Knowledge network visualization" />
+          </div>
+        </section>
+
+        <section class="feature-item">
+          <div class="feature-text">
+            <h2>native code & formulas</h2>
+            <p>
+              read technical content with beautiful syntax highlighting and math rendering. no more clunky screenshots or broken formatting.
+            </p>
+          </div>
+          <div class="feature-image-container">
+            <img class="feature-image" src="assets/images/rich-content.png" alt="Code and formula rendering" />
+          </div>
+        </section>
+
+        <section class="feature-item">
+          <div class="feature-text">
+            <h2>notes that connect</h2>
+            <p>
+              take notes and watch your knowledge base expand automatically. one tap to save important ideas and link them to your network.
+            </p>
+          </div>
+          <div class="feature-image-container">
+            <img class="feature-image" src="assets/images/notes.png" alt="Smart entity-based note-taking" />
+          </div>
+        </section>
+
+        <section class="feature-item">
+          <div class="feature-text">
+            <h2>distraction-free focus</h2>
+            <p>
+              a clean, minimalist interface designed to get out of your way and let you focus on pure reading.
+            </p>
+          </div>
+          <div class="feature-image-container">
+            <img class="feature-image" src="assets/images/reading.png" alt="Minimalist reading interface" />
+          </div>
+        </section>
+      </div>
     </main>
 
-    <footer class="wrap footer">
-      <p>Built by independent developers with privacy in mind.</p>
+    <footer class="wrap">
       <p id="year-footer"></p>
+      <p>built with privacy by independent developers.</p>
     </footer>
 
     <script>
-      // Set the footer year from the user's environment.
-      document.getElementById('year-footer').textContent = `© ${new Date().getFullYear()} Readie`;
+      document.getElementById('year-footer').textContent = `© ${new Date().getFullYear()} readie.`;
     </script>
   </body>
 </html>
