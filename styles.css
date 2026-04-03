@@ -137,14 +137,6 @@ h1 {
   gap: var(--space-4xl);
 }
 
-.feature-item:nth-child(even) {
-  direction: rtl;
-}
-
-.feature-item:nth-child(even) .feature-text {
-  direction: ltr;
-}
-
 .feature-text {
   max-width: 440px;
 }
@@ -194,10 +186,6 @@ h1 {
   .feature-item {
     grid-template-columns: 1fr;
     text-align: center;
-  }
-  
-  .feature-item:nth-child(even) {
-    direction: ltr;
   }
   
   .feature-text {
