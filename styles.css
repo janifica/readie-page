@@ -139,24 +139,6 @@ h1 {
 
 .feature-text {
   max-width: 440px;
-  position: relative;
-}
-
-/* Vertical line connecting the dots */
-.feature-text::after {
-  content: "";
-  position: absolute;
-  left: 4px; /* Center of the 8px dot */
-  top: 1.15em; /* Start from the dot center */
-  bottom: calc(-1 * var(--space-7xl)); /* Extend to the next section */
-  width: 1px;
-  background-color: var(--border);
-  z-index: 0;
-}
-
-/* Hide the connecting line for the last item */
-.feature-item:last-child .feature-text::after {
-  display: none;
 }
 
 .feature-text h2 {
@@ -173,7 +155,7 @@ h1 {
   color: var(--text-muted);
   line-height: 1.6;
   position: relative;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
 .feature-text p::before {
@@ -185,7 +167,6 @@ h1 {
   height: 8px;
   background-color: var(--accent);
   border-radius: 50%;
-  z-index: 1;
 }
 
 .feature-image-container {
