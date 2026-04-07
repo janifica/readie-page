@@ -11,4 +11,8 @@ readie. is a minimal reading hub designed to help you capture, organize, and rev
 - **landing page**: a showcase of readie's core features—ai pre-reading, knowledge web visualization, and rich content support.
 - **privacy policy**: our commitment to user privacy and data security.
 
+## URL
+
+https://janifica.github.io/readie-page
+
 built by independent developers with a focus on simplicity and privacy.
