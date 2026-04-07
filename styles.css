@@ -208,8 +208,8 @@ h1 {
 }
 
 .feature-item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: var(--space-4xl);
 }
@@ -269,12 +269,12 @@ h1 {
 /* Responsive */
 @media (max-width: 768px) {
   .feature-item {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     text-align: center;
   }
 
   .feature-item:nth-child(even) {
-    direction: ltr;
+    flex-direction: column;
   }
 
   .feature-text {
