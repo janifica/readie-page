@@ -205,7 +205,7 @@ h1 {
 }
 
 .feature-image {
-  width: min(82%, 540px);
+  width: min(64%, 360px);
   height: auto;
   border-radius: 20px;
 }
