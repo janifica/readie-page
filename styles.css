@@ -86,6 +86,7 @@ body {
 .hero-logo {
   width: 80px;
   height: 80px;
+  margin-top: var(--space-2xl);
   margin-bottom: var(--space-2xl);
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -204,7 +205,7 @@ h1 {
 }
 
 .feature-image {
-  max-width: 100%;
+  width: min(82%, 540px);
   height: auto;
   border-radius: 20px;
 }
