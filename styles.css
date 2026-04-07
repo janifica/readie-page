@@ -119,7 +119,8 @@ h1 {
 /* CTA */
 .cta-row {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -142,6 +143,17 @@ h1 {
 
 .btn.primary:hover {
   opacity: 0.85;
+}
+
+/* CTA Note */
+.cta-note {
+  font-family: "Newsreader", serif;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 480px;
+  line-height: 1.6;
+  text-align: center;
 }
 
 /* CTA Details */
